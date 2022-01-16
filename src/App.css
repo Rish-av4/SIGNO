@@ -1,0 +1,182 @@
+.navbar-brand {
+  margin-left: 70px;
+  margin-top: 25px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.navbar-nav {
+  margin-top: 25px;
+  flex: auto;
+  justify-content: center;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+/* .nav-link:hover {
+  text-shadow: 1px 1px 5px rgb(212, 209, 208);
+} */
+
+.col-md-5 {
+  margin-left: 4px;
+  margin-top: 20px;
+}
+
+.display-5 {
+  font-size: 32px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.lead {
+  font-size: 18px;
+  color: grey;
+}
+.btn {
+  border-radius: 16px;
+  box-shadow: 1px 1px 6px grey;
+}
+
+.img-fluid {
+  height: 500px;
+  width: 724px;
+  margin-top: -455px;
+  margin-left: 522px;
+}
+
+.design {
+  color: gainsboro;
+}
+
+.foot {
+  border: 2px solid black;
+}
+.rounded {
+  margin-top: -120px;
+}
+
+.para {
+  text-align: left;
+}
+
+.thebrands {
+  align-items: flex-end;
+  margin-left: 450px;
+}
+
+img {
+  margin-left: 100px;
+}
+
+.description {
+  margin-left: 110px;
+}
+
+#jugaad {
+  color: grey;
+}
+
+.cardy {
+  margin-left: 120px;
+  margin-top: 80px;
+  border: 1px solid white;
+}
+
+.cardy-img-top {
+  height: 395px;
+  width: 381px;
+  margin-top: -292px;
+  margin-left: 337px;
+}
+
+.row {
+  margin-right: 350px;
+}
+
+#sec img {
+  margin-right: 100px;
+  position: relative;
+  right: -394px;
+  top: -377px;
+}
+
+#fir img {
+  position: relative;
+  left: 42px;
+  top: -139px;
+}
+
+#thir img {
+  position: relative;
+  left: 398px;
+  top: -187px;
+}
+#four img {
+  position: relative;
+  right: -36px;
+  top: -347px;
+}
+
+.cardy-body {
+  margin-top: 140px;
+}
+
+.img-fluid-one {
+  margin-left: 85px;
+  margin-top: -300px;
+}
+
+.col-md-4#juice {
+  margin-left: 800px;
+  margin-top: -400px;
+}
+
+.carousel-item img {
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.col-auto {
+  width: 500px;
+  height: 400px;
+}
+
+.col-auto button {
+  width: 113px;
+  margin-top: 170px;
+  margin-left: 500px;
+}
+
+input {
+  height: 54px;
+  width: 500px;
+  background-color: cornsilk;
+  margin-top: 104px;
+}
+
+#inputPassword2 {
+  border-radius: 35px;
+  margin-left: 650px;
+  margin-top: 146px;
+  height: 80px;
+  font-size: 25px;
+}
+
+form {
+  flex-direction: row;
+  background-image: url(../src/Images/Newsletter.png);
+}
+
+.row {
+  margin-right: 10px;
+  bottom: 0;
+  right: 0;
+}
+
+.okay {
+  text-align: center;
+  margin-bottom: 2px;
+  background-color: rgb(215, 244, 245);
+  height: 0;
+  color: grey;
+}
