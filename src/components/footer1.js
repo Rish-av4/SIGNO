@@ -10,15 +10,15 @@ export default function Footer1() {
 
             <div>
                 <div className="footerText mx-4">
-                    <h1 className="description">Our Client</h1>
+                    <h1 className="description">Our Clients</h1>
                     <p className="description" id="jugaad">Lorem ipsum dolor sit amet adipisicing.</p>
                 </div>
 
                 <div className="thebrands">
-                    <img src={google} class="rounded mx-4 " alt="" />
-                    <img src={airbnb} class="rounded mx-4 " alt="" />
-                    <img src={ubereats} class="rounded mx-4" alt="" />
-                    <img src={amazon} class="rounded mx-4 " alt="" />
+                    <img src={google} className="rounded mx-3 " alt="" />
+                    <img src={airbnb} className="rounded mx-3 " alt="" />
+                    <img src={ubereats} className="rounded mx-3" alt="" />
+                    <img src={amazon} className="rounded mx-3 " alt="" />
                 </div>
 
             </div>

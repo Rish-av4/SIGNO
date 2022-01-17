@@ -82,6 +82,10 @@ img {
   border: 1px solid white;
 }
 
+.cardy-text {
+  color: grey;
+}
+
 .cardy-img-top {
   height: 395px;
   width: 381px;
@@ -143,7 +147,7 @@ img {
 
 .col-auto button {
   width: 113px;
-  margin-top: 170px;
+  margin-top: 180px;
   margin-left: 500px;
 }
 
@@ -157,7 +161,7 @@ input {
 #inputPassword2 {
   border-radius: 35px;
   margin-left: 650px;
-  margin-top: 146px;
+  margin-top: 158px;
   height: 80px;
   font-size: 25px;
 }
@@ -179,4 +183,154 @@ form {
   background-color: rgb(215, 244, 245);
   height: 0;
   color: grey;
+}
+
+/* *****************************RESPONSIVE STUFF*********************************88 */
+
+@media (max-width: 415px) {
+  .col-md-5 {
+    /* color: red; */
+    /* background-color: blueviolet; */
+    /* background-image: url(http://localhost:3000/static/media/landing-page-image.1a8fad6….png); */
+    background-image: url(../src/Images/landing-page-image.png);
+
+    /* background-size: cover; */
+    color: white;
+    opacity: 0.9;
+    height: 267px;
+    width: 373px;
+    margin-left: -10px;
+  }
+  .lead {
+    color: #5a0505;
+    text-shadow: 0px 0px 3px white;
+    margin-top: -5px;
+    font-family: inherit;
+  }
+
+  .btn {
+    border-radius: 4px;
+    box-shadow: 1px 1px 6px grey;
+    margin-top: 100px;
+    width: 147px;
+  }
+  .display-5 {
+    font-size: 37px;
+    font-family: sans-serif;
+    font-weight: 500;
+
+    /* margin-top: 48px; */
+    color: white;
+    text-shadow: 1px 1px darkslategrey;
+  }
+  .thebrands {
+    margin-left: inherit;
+    margin-inline: 122px;
+    margin-top: -28px;
+    height: 169px;
+    width: 159px;
+    /* border: 2px solid red; */
+  }
+  .rounded {
+    height: 28px;
+    margin-top: 36px;
+  }
+  .description {
+    margin-left: 55px;
+    font-size: 26px;
+  }
+
+  .cardy-body {
+    margin: auto;
+    margin-top: 30px;
+    margin-left: -70px;
+    width: inherit;
+    background-color: rgb(166, 240, 245);
+  }
+  .cardy#sick {
+    margin-left: 74px;
+    margin-top: 80px;
+    border: 1px solid white;
+  }
+  .cardy-title {
+    margin-left: 43px;
+    /* margin-top: 20px; */
+  }
+
+  .cardy-text {
+    margin-left: 43px;
+    /* border: 2px solid; */
+    height: 100px;
+    width: 267px;
+    color: darkslateblue;
+  }
+
+  #fir img {
+    position: relative;
+    left: -432px;
+    top: 194px;
+    height: 362px;
+    width: 302px;
+  }
+
+  #sec img {
+    position: relative;
+    left: -432px;
+    top: 344px;
+    height: 362px;
+    width: 302px;
+  }
+  #thir img {
+    position: relative;
+    left: -432px;
+    top: 490px;
+    height: 362px;
+    width: 302px;
+  }
+  #four img {
+    position: relative;
+    left: -432px;
+    top: 633px;
+    height: 362px;
+    width: 302px;
+  }
+
+  .img-fluid-one {
+    margin-left: -2px;
+    margin-top: 596px;
+  }
+
+  .img-fluid-one#sup {
+    margin-left: 0px;
+    height: 263px;
+    width: 382px;
+  }
+
+  .col-md-4#juice {
+    margin-left: 20px;
+    margin-top: -40px;
+    width: 350px;
+  }
+
+  .col-auto#zip {
+    height: 10px;
+  }
+
+  #inputPassword2 {
+    border-radius: 20px;
+    margin-left: -6px;
+    margin-top: 252px;
+    height: 48px;
+    font-size: 21px;
+  }
+  .col-auto button {
+    width: 150px;
+    margin-top: -10px;
+    margin-left: 68px;
+    border-radius: 50px;
+    padding: 2px;
+  }
+  .row#done {
+    margin-top: -82px;
+  }
 }

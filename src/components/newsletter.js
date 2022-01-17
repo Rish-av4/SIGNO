@@ -4,17 +4,18 @@ import React from "react";
 export default function Newsletter() {
     return (
         <>
-            <form class="row g-3 my-4 mx-4">
+            {/* <form className="row g-1 my-4 mx-4"> */}
+            <form className="row g-1 mx-4" id="done">
                 {/* <div class="col-auto">
                     <label for="staticEmail2" class="visually-hidden">Email</label>
                     <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="email@example.com"/>
                 </div> */}
-                <div class="col-auto">
-                    <label for="inputPassword2" class="visually-hidden">Password</label>
-                    <input type="text" class="form-control" id="inputPassword2" placeholder="Enter your email" />
+                <div className="col-auto" >
+                    <label form="inputPassword2" className="visually-hidden">Password</label>
+                    <input type="text" className="form-control" id="inputPassword2" placeholder="Enter your email" />
                 </div>
-                <div class="col-auto">
-                    <button type="submit" class="btn btn-primary mb-3">Submit</button>
+                <div className="col-auto" id="zip">
+                    <button type="submit" className="btn btn-warning mb-3">Submit</button>
                 </div>
             </form>
         </>
